@@ -1,0 +1,23 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 5px 20px;
+}
+.Logo {
+    max-width: 100%;
+    width: 200px;
+}
+.SingIn{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    font-weight: bold;
+    text-decoration: none !important ;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
