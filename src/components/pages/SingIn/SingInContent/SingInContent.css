@@ -1,0 +1,20 @@
+.SingInContent{
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+ input {
+    padding: 5px;
+    font-size: 1.2rem; 
+}
+.input-remember{
+    text-align: left;
+}
