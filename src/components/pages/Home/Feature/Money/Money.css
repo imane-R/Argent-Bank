@@ -1,3 +1,8 @@
 .Money{
     width: 33%;
 }
+@media screen and (max-device-width : 480px) {
+    .Money{
+        width: fit-content;
+    }
+}

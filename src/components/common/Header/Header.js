@@ -16,9 +16,9 @@ function Header() {
                     <img className='Logo' src={logo} alt='logo' />
                 </Link>
             </div>
-            <div className='SingIn'>
+            <div className='LoginHeader'>
                 <FontAwesomeIcon icon="user-circle" />
-                <Link to="/SingIn">
+                <Link to="user/login">
                     Sign In
                 </Link>
             </div>

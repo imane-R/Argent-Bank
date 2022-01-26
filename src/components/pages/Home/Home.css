@@ -1,3 +1,10 @@
 .features{
     display: flex;
 }
+@media screen and (max-device-width : 480px) {
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

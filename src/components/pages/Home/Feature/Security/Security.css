@@ -1,3 +1,8 @@
 .Security{
     width: 33%;
 }
+@media screen and (max-device-width : 480px) {
+    .Security{
+        width: fit-content;
+    }
+}

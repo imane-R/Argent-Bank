@@ -1,3 +1,8 @@
 .Chat{
     width: 33%;
 }
+@media screen and (max-device-width : 480px) {
+    .Chat{
+        width: fit-content;
+    }
+}
