@@ -35,7 +35,7 @@ function Header() {
                 </Link>
             </div>):(
                 <div>
-                <Link to="/user">
+                <Link to="/profile">
                     <span className='main-nav-item'>
                     <FontAwesomeIcon icon="user-circle" />
                         {user.firstName}
